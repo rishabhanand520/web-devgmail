@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <header class="flex justify-between items-center p-4 bg-white shadow-md">
+        <div class="text-xl font-bold">Gmail</div>
+        <nav>
+            <ul class="flex space-x-4">
+                <li><a href="#" class="text-gray-600">Inbox</a></li>
+                <li><a href="#" class="text-gray-600">Sent</a></li>
+                <li><a href="#" class="text-gray-600">Drafts</a></li>
+                <li><a href="#" class="text-gray-600">Spam</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="flex">
+        <aside class="w-1/4 p-4 bg-white shadow-md h-screen">
+            <button class="bg-red-500 text-white p-2 rounded w-full mb-4">Compose</button>
+            <ul>
+                <li class="p-2 hover:bg-gray-200 cursor-pointer">Inbox</li>
+                <li class="p-2 hover:bg-gray-200 cursor-pointer">Starred</li>
+                <li class="p-2 hover:bg-gray-200 cursor-pointer">Snoozed</li>
+                <li class="p-2 hover:bg-gray-200 cursor-pointer">Sent</li>
+                <li class="p-2 hover:bg-gray-200 cursor-pointer">Drafts</li>
+            </ul>
+        </aside>
+        
+        <section class="w-3/4 p-4">
+            <h2 class="text-2xl font-bold mb-4">Inbox</h2>
+            <div class="bg-white p-4 shadow-md mb-2">
+                <p><strong>John Doe</strong> - Meeting at 3 PM</p>
+            </div>
+            <div class="bg-white p-4 shadow-md mb-2">
+                <p><strong>Amazon</strong> - Your order has been shipped</p>
+            </div>
+            <div class="bg-white p-4 shadow-md mb-2">
+                <p><strong>LinkedIn</strong> - New connection request</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
 
